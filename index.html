@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  /* Large Screen */
+  @media screen and (min-width: 993px) {
+    #neuron {
+      max-width: 23%;
+    }
+
+    .news-text {
+      margin-top: -20px;
+      padding-left: 16px;
+    }
+  }
+
+  /* Medium Screen */
+  @media screen and (min-width: 601px) and (max-width: 992px) {
+    #neuron {
+      max-width: 23%;
+    }
+
+    .news-text {
+      margin-top: -20px;
+      padding-left: 16px;
+    }
+  }
+
+  /* Small Screen */
+  @media screen and (max-width: 600px) {
+    #neuron {
+      max-width: 50%;
+    }
+
+    .news-text {
+      margin-top: 0px;
+      padding-left: 0px;
+    }
+  }
+
+  .news>div:not(:first-of-type) {
+    padding-top: 32px;
+  }
+</style>
+
+<head>
+  <!-- Title and Icons -->
+  <title>T32 Program Description</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#333333">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="Description"
+    content="">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="w3-dark-grey w3-top w3-text-white">
+    <div class="w3-main w3-display-container" style="height: 50px;">
+      <a href="javascript:void(0)"
+        class="w3-button w3-display-left w3-hide-large w3-hover-text-orange w3-text-white w3-hover-black w3-dark-grey"
+        onclick="open_sidebar()"><i class="fa fa-bars"></i></a>
+      <div class="w3-display-middle">
+        <h3 class="w3-hide-small" style="white-space: nowrap; overflow: hidden;"><b>T32 Intergenerational Community 
+                Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="w3-sidebar w3-collapse w3-bar-block w3-dark-grey w3-large" style="z-index: 3;">
+    <a href="javascript:void(0)" onclick="close_sidebar()"
+      class="w3-bar-item w3-button w3-hide-large w3-padding w3-hover-text-orange w3-hover-black w3-dark-grey">Close
+      Menu</a>
+    <div class="w3-container w3-padding-32">
+      <a href="https://biodesign.asu.edu/"><img src="asulogo.png" alt="ASU Logo" style="width: 100%;"></a>
+    </div>
+    <!-- Tell our JS what page this is -->
+    <div id="page-id">index.html</div>
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="close_sidebar()" style="cursor:pointer" title="close side menu"
+    id="overlay"></div>
+
+  <!-- Indent main content -->
+  <div class="w3-main">
+    <div id="content" class="w3-content">
+        <h1><b>Program Description</b></h1>
+
+        <h4>Project Summary</h4>
+        <p class="w3-opacity">
+            The development of Alzheimer's Disease (AD) and AD Related Dementias (ADRD) is impacted by biological, 
+            clinical, socio-demographic, and lifestyle factors. Therefore, training the workforce for AD/ADRD research 
+            requires an interdisciplinary approach that is informed by community and clinical need, which is in turn 
+            critical to rapid translation of fundamental research into practice and communities. This proposal aims at 
+            developing an interdisciplinary training program for nurturing 9-10 predoctoral trainees annually 
+            (6 of 10 in years 1-4 and 5 of 9 in year 5 trainees will be supported by NIH, and 4 each year will be 
+            supported by Arizona State University (ASU), who will be mentored by a team of faculty from different 
+            units/schools at ASU and clinicians/researchers from Mayo Clinic, Banner Alzheimer Institute, Barrow 
+            Neurological Institute, and TGen, with diverse expertise covering AD/ADRD clinical science, diagnostics 
+            and engineering, disease biology, data science, and drug discovery/development. The training program will 
+            leverage AD/ADRD resources in Arizona and actively engage the Arizona Alzheimer’s Consortium (AAC) and the 
+            Arizona Alzheimer's Disease Research Center (ADRC). The program is in a unique position to partner with 
+            Mirabella, a senior living community on the ASU campus, and Hospice of the Valley, Arizona's leading 
+            provider of end-of-life care, and other community partners to provide the trainees with real-life 
+            experiences. The team has designed a unique program with well-rounded training opportunities covering 
+            the following four dimensions: curriculum-based training, research training, career development, and 
+            community-based real-world experiences. Recognizing the exponentially increasing amount of data in all 
+            disciplines involved in AD/ADRD research and the critical and often enabling role that Artificial 
+            Intelligence (AI) plays in data-intensive research, the proposed training program employs a data-centric 
+            approach with AI being a bridge serving to connect all the involved disciplines through its role as a data 
+            processing and inference engine. Accordingly, the focus of the proposed curriculum-based training and 
+            research training is on helping the trainee to gain the fundamental knowledge and research skills in 
+            employing AI for AD/ADRD research. The training faculty have established track records, not only for 
+            pursing AI and AD/ADRD research, but also for doctoral student mentoring. Further, there are active 
+            collaborations among the training faculty, which have helped to shape the design of the initial set of 
+            research projects that are ready to be deployed for the choice of the first batch of trainees.
+        </p>
+
+        <h4>Project Narrative</h4>
+        <p class="w3-opacity">
+            Early detection of Alzheimer’s Disease and Related Dementia (AD/ADRD) makes it possible for initiation of 
+            early intervention, its assessment (preventive clinical trials) to slow down the progression, even prevent 
+            the onset and reduce care costs. Leveraging unique AD/ADRD resources in Arizona including the Arizona 
+            Alzheimer’s Consortium (AAC) and Mirabella - a senior living community on the Arizona State University 
+            campus, we propose to train pre-doctoral researchers with an Artificial Intelligence (AI) mindset when 
+            attacking long-standing challenges in AD/ADRD research including clinical science, diagnostics and 
+            engineering, disease biology, data science, and drug discovery/development. This novel integration 
+            provides the opportunity not only for intergenerational education but also for community defined field 
+            research projects in the training program.
+        </p>
+
+        <a href="https://reporter.nih.gov/search/k8WM328u70OyJZvHc6kAvA/project-details/10934138">
+            Click to view the project details on NIH RePORTER
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p><a href="https://www.asu.edu/">Arizona State University</a> © 2024 | Powered by <a
+          href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </div>
+
+  <!-- Script to open and close sidebar -->
+  <script src="sidebar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style></style>
+
+<head>
+  <!-- Title and Icons -->
+  <title>Application Portal</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#333333">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="Description"
+    content="">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="w3-dark-grey w3-top w3-text-white">
+    <div class="w3-main w3-display-container" style="height: 50px;">
+      <a href="javascript:void(0)"
+        class="w3-button w3-display-left w3-hide-large w3-hover-text-orange w3-text-white w3-hover-black w3-dark-grey"
+        onclick="open_sidebar()"><i class="fa fa-bars"></i></a>
+      <div class="w3-display-middle">
+        <h3 class="w3-hide-small" style="white-space: nowrap; overflow: hidden;"><b>T32 Intergenerational Community 
+                Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <nav id="sidebar" class="w3-sidebar w3-collapse w3-bar-block w3-dark-grey w3-large" style="z-index: 3;">
+    <a href="javascript:void(0)" onclick="close_sidebar()"
+      class="w3-bar-item w3-button w3-hide-large w3-padding w3-hover-text-orange w3-hover-black w3-dark-grey">Close
+      Menu</a>
+    <div class="w3-container w3-padding-32">
+      <a href="https://biodesign.asu.edu/"><img src="asulogo.png" alt="ASU Logo" style="width: 100%;"></a>
+    </div>
+    <!-- Tell our JS what page this is -->
+    <div id="page-id">apply.html</div>
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="close_sidebar()" style="cursor:pointer" title="close side menu"
+    id="overlay"></div>
+
+  <!-- Indent main content -->
+  <div class="w3-main">
+    <div id="content" class="w3-content">
+        <h1><b>Application Portal</b></h1>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p><a href="https://www.asu.edu/">Arizona State University</a> © 2024 | Powered by <a
+          href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+  </div>
+
+  <!-- Script to open and close sidebar -->
+  <script src="sidebar.js"></script>
+
+</body>
+
+</html>
