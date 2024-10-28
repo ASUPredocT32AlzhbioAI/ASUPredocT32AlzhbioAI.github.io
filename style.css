@@ -1,5 +1,36 @@
 #page-id { display: none; }
 body {background-color: black;}
+header {
+  max-width: 100vw;
+  height: 50px;
+}
+header div.w3-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header a {
+  justify-content: center;
+  align-items: center;
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+}
+header h3 {
+  flex-grow: 1;
+  padding: 0 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+header div.w3-main div {
+  width: 200px;
+  min-width: 200px;
+  height: 1px;
+}
 nav a {
   text-align: center !important;
 }
@@ -42,7 +73,7 @@ ol.bold span {
   #content {max-width: 100%;}
 }
 @media screen and (min-width: 993px) {
-  #content {max-width: 80%;}
+  #content {max-width: 90%;}
 }
 footer {
   padding: 32px 16px 0px 16px;

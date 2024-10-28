@@ -10,7 +10,61 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style></style>
+<style>
+  @media screen and (min-width: 700px) {
+    #content div.w3-row {
+      min-width: 650px;
+      background-color: #616161;
+    }
+    .grow:hover {transform: scale(1.05);}
+  }
+  @media screen and (max-width: 699px) {
+    .grow:hover {transform: none;}
+  }
+  #content div.w3-row {
+    max-width: 650px;
+  }
+  .picture-grid {
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  #content img {
+    aspect-ratio: 1 / 1;
+    max-width: 200px;
+  }
+  #content div.picture-grid {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #content > h3 {
+    padding-top: 10px;
+  }
+  #content div.w3-col.w3-hide-small {
+    width: 20px;
+    height: 1px;
+  }
+  #content div.w3-rest.w3-mobile {
+    padding-right: 20px;
+  }
+  /* .row { */
+  /*   min-width: 650px; */
+  /*   padding-right: 20px; */
+  /*   display: flex; */
+  /*   flex-wrap: wrap; */
+  /*   gap: 20px; */
+  /*   background-color: #616161; */
+  /* } */
+  /* .row > div { */
+  /*   display: flex; */
+  /*   flex-direction: column; */
+  /*   justify-content: space-around; */
+  /* } */
+  /* .row h1, */
+  /* .row h4 { */
+  /*   margin: 0; */
+  /* } */
+</style>
 
 <head>
   <!-- Title and Icons -->
@@ -30,14 +84,13 @@
 
   <!-- Header -->
   <header class="w3-dark-grey w3-top w3-text-white">
-    <div class="w3-main w3-display-container" style="height: 50px;">
-      <a href="javascript:void(0)"
-        class="w3-button w3-display-left w3-hide-large w3-hover-text-orange w3-text-white w3-hover-black w3-dark-grey"
-        onclick="open_sidebar()"><i class="fa fa-bars"></i></a>
-      <div class="w3-display-middle">
-        <h3 class="w3-hide-small" style="white-space: nowrap; overflow: hidden;"><b>T32 Intergenerational Community 
-                Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
-      </div>
+    <div class="w3-main">
+      <a href="javascript:void(0)" class="w3-button w3-hide-large w3-hover-text-orange 
+        w3-text-white w3-hover-black w3-dark-grey" style="display: flex" onclick="open_sidebar()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <h3><b>T32 Intergenerational Community Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
+      <div class="w3-hide-medium w3-hide-small"></div>
     </div>
   </header>
 
@@ -60,7 +113,279 @@
   <!-- Indent main content -->
   <div class="w3-main">
     <div id="content" class="w3-content">
-        <h1><b>Community Partners and Organizations</b></h1>
+      <h1><b>Community Partners and Organizations</b></h1>
+
+      <h3>Mirabella</h3>
+      <div class="picture-grid">
+        <div class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/legross?size=medium&break=1729796723&blankImage2=1" 
+          alt="Lindsey Beagley" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Lindsey Beagley</b></h1>
+            <h4>
+              <b>Director, Lifelong University Engagement</b><br>
+              Office of University Provost
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/339409">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row"> -->
+        <!--   <img src="https://webapp4.asu.edu/photo-ws/directory_photo/legross?size=medium&break=1729796723&blankImage2=1"  -->
+        <!--   alt="Lindsey Beagley" class="w3-image"> -->
+        <!--   <div> -->
+        <!--     <h1><b>Lindsey Beagley</b></h1> -->
+        <!--     <h4> -->
+        <!--       <b>Director, Lifelong University Engagement</b><br> -->
+        <!--       Office of University Provost -->
+        <!--     </h4> -->
+        <!--     <a href="https://search.asu.edu/profile/339409">Click to view ASU profile</a> -->
+        <!--   </div> -->
+        <!-- </div> -->
+      </div>
+
+      <h3>Vi Silverstone</h3>
+      <div class="picture-grid">
+        <div class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1" 
+          alt="Tammy Grannado" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Tammy Grannado</b></h1>
+            <h4>
+              <b>Placeholder</b><br>
+              Placeholder
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Partnership for Community Development - Friendship Village/Westminster</h3>
+      <div class="picture-grid">
+        <div class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/icrck?size=medium&break=1729741563&blankImage2=1" 
+          alt="Richard Knopf"  class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Richard Knopf</b></h1>
+            <h4>
+              <b>Emeritus Professor</b><br>
+              Partnership for Community Development
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/43935">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <h3>Duet</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1" 
+        alt="Ann Wheat" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Ann Wheat</b></h1>
+          <h4>
+            <b>Placeholder</b><br>
+            Placeholder
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Hospice of the Valley</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1" 
+        alt="Gillian Hamilton" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Gillian Hamilton</b></h1>
+          <h4>
+            <b>Professor of Practice</b><br>
+            College of Health Solutions
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/1306341">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 style="padding-top: 20px">Clinical Partners</h1>
+    <h3>Mayo Clinic</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ibanerj7?size=medium&break=1729797285&blankImage2=1" 
+        alt="Imon Banerjee" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Imon Banerjee</b></h1>
+          <h4>
+            <b>Adjunct Faculty</b><br><br>
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/3997231">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1" 
+        alt="Oana Dumitrascu" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Oana Dumitrascu</b></h1>
+          <h4>
+            <b>Placeholder</b><br>
+            Placeholder
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1" 
+        alt="Bhavik Patel" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Bhavik Patel</b></h1>
+          <h4>
+            <b>Visiting Scholar/Faculty/Researcher</b><br><br>
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/3939500">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Barrow</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+        alt="Yonas Geda" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Yonas Geda</b></h1>
+          <h4 style="margin-bottom: 0">
+            <b>Adjunct Faculty</b><br>School for Engineering of Matter, Transport and Energy
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/3630060">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+        alt="Marwan Sabbagh" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Marwan Sabbagh</b></h1>
+          <h4>
+            <b>Placeholder</b><br><br>
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+        alt="Susan Criswell" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Susan Criswell</b></h1>
+          <h4>
+            <b>Placeholder</b><br><br>
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+        alt="Brad Racette" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Brad Racette</b></h1>
+          <h4>
+            <b>Adjunct Faculty</b><br>College of Health Solutions
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/4869343">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Banner</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+        alt="Eric Reiman" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Eric Reiman</b></h1>
+          <h4>
+            <b>Placeholder</b><br><br>
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/yisu2?size=medium&break=1729792362&blankImage2=1"
+        alt="Yi Su" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Yi Su</b></h1>
+          <h4 style="margin-bottom: 0">
+            <b>Adjunct Faculty</b><br>School of Computing & Augmented Intelligence
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/3479877">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>TGEN</h3>
+    <div class="picture-grid">
+      <div class="w3-row grow">
+        <img src="https://webapp4.asu.edu/photo-ws/directory_photo/mhuentel?size=medium&break=1729832435&blankImage2=1"
+        alt="Matthew Huentelman" class="w3-col w3-image">
+        <div class="w3-col w3-hide-small"></div>
+        <div class="w3-rest w3-mobile">
+          <h1><b>Matthew Huentelman</b></h1>
+          <h4>
+            <b>Adjunct Faculty</b><br>Sols Administration & Faculty
+          </h4>
+          <div style="padding-top: 5px">
+            <a href="https://search.asu.edu/profile/1315328">Click to view ASU profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     </div>
 
     <!-- Footer -->

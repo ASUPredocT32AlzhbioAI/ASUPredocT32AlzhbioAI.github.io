@@ -11,45 +11,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
-  /* Large Screen */
-  @media screen and (min-width: 993px) {
-    #neuron {
-      max-width: 23%;
-    }
-
-    .news-text {
-      margin-top: -20px;
-      padding-left: 16px;
-    }
-  }
-
-  /* Medium Screen */
-  @media screen and (min-width: 601px) and (max-width: 992px) {
-    #neuron {
-      max-width: 23%;
-    }
-
-    .news-text {
-      margin-top: -20px;
-      padding-left: 16px;
-    }
-  }
-
-  /* Small Screen */
-  @media screen and (max-width: 600px) {
-    #neuron {
-      max-width: 50%;
-    }
-
-    .news-text {
-      margin-top: 0px;
-      padding-left: 0px;
-    }
-  }
-
-  .news>div:not(:first-of-type) {
-    padding-top: 32px;
-  }
 </style>
 
 <head>
@@ -70,14 +31,13 @@
 
   <!-- Header -->
   <header class="w3-dark-grey w3-top w3-text-white">
-    <div class="w3-main w3-display-container" style="height: 50px;">
-      <a href="javascript:void(0)"
-        class="w3-button w3-display-left w3-hide-large w3-hover-text-orange w3-text-white w3-hover-black w3-dark-grey"
-        onclick="open_sidebar()"><i class="fa fa-bars"></i></a>
-      <div class="w3-display-middle">
-        <h3 class="w3-hide-small" style="white-space: nowrap; overflow: hidden;"><b>T32 Intergenerational Community 
-                Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
-      </div>
+    <div class="w3-main">
+      <a href="javascript:void(0)" class="w3-button w3-hide-large w3-hover-text-orange 
+        w3-text-white w3-hover-black w3-dark-grey" style="display: flex" onclick="open_sidebar()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <h3><b>T32 Intergenerational Community Driven Training in Alzheimer's Disease Research: An AI+X Approach</b></h3>
+      <div class="w3-hide-medium w3-hide-small"></div>
     </div>
   </header>
 
