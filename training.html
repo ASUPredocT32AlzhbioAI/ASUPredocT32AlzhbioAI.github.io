@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
+  html {
+    scroll-padding-top: 75px;
+  }
   @media screen and (min-width: 700px) {
     #content div.w3-row {
       min-width: 650px;
@@ -46,6 +49,36 @@
   }
   #content div.w3-rest.w3-mobile {
     padding-right: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }  
+  .caret {
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none;
+  }
+
+  .caret::before {
+    content: "\25B6";
+    display: inline-block;
+    margin-right: 6px;
+  }
+
+  .caret-down::before {
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari */'
+      transform: rotate(90deg);  
+  }
+
+  .nested {
+    display: none;
+  }
+
+  .active {
+    display: block;
   }
 </style>
 
@@ -96,576 +129,614 @@
   <!-- Indent main content -->
   <div class="w3-main">
     <div id="content" class="w3-content">
-        <h1><b>Training Faculty - Fundamental Sciences</b></h1>
-        <h3>SMS</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jkleinse?size=medium&break=1729781605&blankImage2=1"
-            alt="Judith Klein-Seetharaman" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h2><b>Judith Klein-Seetharaman</b></h2>
-              <h4>
-                <b>Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3955172">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
+      <div>
+        <span class="caret">Index</span>
+        <ul class="nested">
+          <li><a href="#alexandra_ros">Alexandra Ros</a></li>
+          <li><a href="#b_blair_braden">B. Blair Braden</a></li>
+          <li><a href="#chris_bryan">Chris Bryan</a></li>
+          <li><a href="#david_coon">David Coon</a></li>
+          <li><a href="#edward_ofori">Edward Ofori</a></li>
+          <li><a href="#erica_forzani">Erica Forzani</a></li>
+          <li><a href="#fang_yu">Fang Yu</a></li>
+          <li><a href="#gautam_dasarathy">Gautam Dasarathy</a></li>
+          <li><a href="#hassan_ghasemzadeh">Hassan Ghasemzadeh</a></li>
+          <li><a href="#heather_bimonte_nelson">Heather Bimonte-Nelson</a></li>
+          <li><a href="#jessica_verpeut">Jessica Verpeut</a></li>
+          <li><a href="#jitendran_muthuswamy">Jitendran Muthuswamy</a></li>
+          <li><a href="#judith_klein_seetharaman">Judith Klein-Seetharaman</a></li>
+          <li><a href="#jui_heng_tseng">Jui-Heng Tseng</a></li>
+          <li><a href="#kewei_chen">Kewei Chen</a></li>
+          <li><a href="#li_liu">Li Liu</a></li>
+          <li><a href="#matthias_heyden">Matthias Heyden</a></li>
+          <li><a href="#nina_sharp">Nina Sharp</a></li>
+          <li><a href="#noah_snyder_mackler">Noah Snyder-Mackler</a></li>
+          <li><a href="#petra_fromme">Petra Fromme</a></li>
+          <li><a href="#ramon_velazquez">Ramon Velazquez</a></li>
+          <li><a href="#rong_pan">Rong Pan</a></li>
+          <li><a href="#rosemary_renaut">Rosemary Renaut</a></li>
+          <li><a href="#scott_beeman">Scott Beeman</a></li>
+          <li><a href="#shannon_ringenbach">Shannon Ringenbach</a></li>
+          <li><a href="#susanta_sarkar">Susanta Sarkar</a></li>
+          <li><a href="#sydney_schaefer">Sydney Schaefer</a></li>
+          <li><a href="#teresa_wu">Teresa Wu</a></li>
+          <li><a href="#thurmon_lockhart">Thurmon Lockhart</a></li>
+          <li><a href="#valentin_dinu">Valentin Dinu</a></li>
+          <li><a href="#visar_berisha">Visar Berisha</a></li>
+          <li><a href="#yalin_wang">Yalin Wang</a></li>
+        </ul>
+      </div>
 
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/pfromme?size=medium&break=1729797563&blankImage2=1"
-            alt="Petra Fromme" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Petra Fromme</b></h1>
-              <h4 style="margin-bottom: 0">
-                <b>Center Director & Professor</b><br>Biodesign Center for Applied Structural Discovery
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/393381">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/mheyden1?size=medium&break=1729776706&blankImage2=1"
-            alt="Matthias Heyden" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Matthias Heyden</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>School of Molecular Sciences
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3160407">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/aros2?size=medium&break=1729795398&blankImage2=1"
-            alt="Alexandra Ros" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Alexandra Ros</b></h1>
-              <h4>
-                <b>Professor</b><br>School of Molecular Sciences
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/1176692">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
-            alt="Susanta Sarkar" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Susanta Sarkar</b></h1>
-              <h4>
-                <b>Research Associate Professor</b><br>School of Molecular Sciences
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/4827414">Click to view ASU profile</a>
-              </div>
+      <h1><b>Training Faculty - Fundamental Sciences</b></h1>
+      <h3>SMS</h3>
+      <div class="picture-grid">
+        <div id="judith_klein_seetharaman" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jkleinse?size=medium&break=1729781605&blankImage2=1"
+          alt="Judith Klein-Seetharaman" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h2><b>Judith Klein-Seetharaman</b></h2>
+            <h4>
+              <b>Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3955172">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>SMSS</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/renaut?size=medium&break=1729799190&blankImage2=1"
-            alt="Rosemary Renaut" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Rosemary Renaut</b></h1>
-              <h5 style="margin-bottom: 0">
-                <b>Associate Director for Faculty Development and Professor</b><br>School of Mathematical and Statistical Sciences
-              </h5>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/85017">Click to view ASU profile</a>
-              </div>
+        <div id="petra_fromme" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/pfromme?size=medium&break=1729797563&blankImage2=1"
+          alt="Petra Fromme" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Petra Fromme</b></h1>
+            <h4 style="margin-bottom: 0">
+              <b>Center Director & Professor</b><br>Biodesign Center for Applied Structural Discovery
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/393381">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>SOLS</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/rvelazq3?size=medium&break=1729787375&blankImage2=1"
-            alt="Ramon Velazquez" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Ramon Velazquez</b></h1>
-              <h4 style="margin-bottom: 0">
-                <b>Assistant Professor</b><br>ASU-Banner Neurodegenerative Disease Research Center
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/1187887">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jtseng10?size=medium&break=1729757543&blankImage2=1"
-            alt="Jui-Heng Tseng" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Jui-Heng Tseng</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>School of Life Sciences
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/4891227">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/nsnyderm?size=medium&break=1729785139&blankImage2=1"
-            alt="Noah Snyder-Mackler" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Noah Snyder-Mackler</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>School of Life Sciences
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3533606">Click to view ASU profile</a>
-              </div>
+        <div id="matthias_heyden" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/mheyden1?size=medium&break=1729776706&blankImage2=1"
+          alt="Matthias Heyden" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Matthias Heyden</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>School of Molecular Sciences
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3160407">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>Psychology</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="./training_faculty/heather_bimonte_nelson.webp"
-            alt="Heather Bimonte-Nelson" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h2><b>Heather Bimonte-Nelson</b></h2>
-              <h4>
-                <b>Psychology</b><br>President's Professor
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/848335">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jverpeut?size=medium&break=1730062963&blankImage2=1"
-            alt="Jessica Verpeut" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Jessica Verpeut</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>Psychology
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3731310">Click to view ASU profile</a>
-              </div>
+        <div id="alexandra_ros" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/aros2?size=medium&break=1729795398&blankImage2=1"
+          alt="Alexandra Ros" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Alexandra Ros</b></h1>
+            <h4>
+              <b>Professor</b><br>School of Molecular Sciences
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/1176692">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h1 style="padding-top: 20px"><b>Training Faculty - Health Sciences</b></h1>
-        <h3>CHS</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jkleinse?size=medium&break=1730066601&blankImage2=1"
-            alt="Judith Klein-Seetharaman" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h2><b>Judith Klein-Seetharaman</b></h2>
-              <h4>
-                <b>Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3955172">Click to view ASU profile</a>
-              </div>
+        <div id="susanta_sarkar" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ghamilt3?size=medium&break=1729827968&blankImage2=1"
+          alt="Susanta Sarkar" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Susanta Sarkar</b></h1>
+            <h4>
+              <b>Research Associate Professor</b><br>School of Molecular Sciences
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/4827414">Click to view ASU profile</a>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/visar?size=medium&break=1730059382&blankImage2=1"
-            alt="Visar Berisha" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Visar Berisha</b></h1>
-              <h4>
-                <b>Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/226165">Click to view ASU profile</a>
-              </div>
+      <h3>SMSS</h3>
+      <div class="picture-grid">
+        <div id="rosemary_renaut" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/renaut?size=medium&break=1729799190&blankImage2=1"
+          alt="Rosemary Renaut" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Rosemary Renaut</b></h1>
+            <h5 style="margin-bottom: 0">
+              <b>Associate Director for Faculty Development and Professor</b><br>School of Mathematical and Statistical Sciences
+            </h5>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/85017">Click to view ASU profile</a>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/bbbraden?size=medium&break=1730050412&blankImage2=1"
-            alt="B. Blair Braden" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>B. Blair Braden</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/1039878">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/lliu80?size=medium&break=1730098690&blankImage2=1"
-            alt="Li Liu" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Li Liu</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/1646747">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/vdinu?size=medium&break=1730079467&blankImage2=1"
-            alt="Valentin Dinu" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Valentin Dinu</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/1112588">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/hghasemz?size=medium&break=1729953144&blankImage2=1"
-            alt="Hassan Ghasemzadeh" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Hassan Ghasemzadeh</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/4018242">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/eofori3?size=medium&break=1730034134&blankImage2=1"
-            alt="Edward Ofori" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Edward Ofori</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3331143">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/shannonr?size=medium&break=1730112371&blankImage2=1"
-            alt="Shannon Ringenbach" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Shannon Ringenbach</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/192246">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/sracette?size=medium&break=1730084170&blankImage2=1"
-            alt="Susan Racette" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Susan Racette</b></h1>
-              <h4>
-                <b>Professor & Program Director</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/4149126">Click to view ASU profile</a>
-              </div>
+      <h3>SOLS</h3>
+      <div class="picture-grid">
+        <div id="ramon_velazquez" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/rvelazq3?size=medium&break=1729787375&blankImage2=1"
+          alt="Ramon Velazquez" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Ramon Velazquez</b></h1>
+            <h4 style="margin-bottom: 0">
+              <b>Assistant Professor</b><br>ASU-Banner Neurodegenerative Disease Research Center
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/1187887">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>Nursing</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/dwcoon?size=medium&break=1730059562&blankImage2=1"
-            alt="David Coon" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>David Coon</b></h1>
-              <h4>
-                <b>Assoc Dean & Professor - R.I.S.E.</b><br>Edson College of Nursing and Health Innovation
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/755886">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/fangyu2?size=medium&break=1730048978&blankImage2=1"
-            alt="Fang Yu" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Fang Yu</b></h1>
-              <h4>
-                <b>Edson Chair in Dementia Translational Nursing Science and Professor</b><br>Edson College - Research Faculty
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/3768542">Click to view ASU profile</a>
-              </div>
+        <div id="jui_heng_tseng" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jtseng10?size=medium&break=1729757543&blankImage2=1"
+          alt="Jui-Heng Tseng" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Jui-Heng Tseng</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>School of Life Sciences
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/4891227">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>Biostatistics Core</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/chenkw?size=medium&break=1730089386&blankImage2=1"
-            alt="Kewei Chen" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Kewei Chen</b></h1>
-              <h4>
-                <b>Research Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/253922">Click to view ASU profile</a>
-              </div>
+        <div id="noah_snyder_mackler" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/nsnyderm?size=medium&break=1729785139&blankImage2=1"
+          alt="Noah Snyder-Mackler" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Noah Snyder-Mackler</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>School of Life Sciences
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3533606">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Psychology</h3>
+      <div id="heather_bimonte_nelson" class="picture-grid">
+        <div class="w3-row grow">
+          <img src="./training_faculty/heather_bimonte_nelson.webp"
+          alt="Heather Bimonte-Nelson" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h2><b>Heather Bimonte-Nelson</b></h2>
+            <h4>
+              <b>Psychology</b><br>President's Professor
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/848335">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h1 style="padding-top: 20px"><b>Training Faculty - Engineering</b></h1>
-
-        <h3>Data Science/AI/SCAI</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/twu02?size=medium&break=1730048970&blankImage2=1"
-            alt="Teresa Wu" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Teresa Wu</b></h1>
-              <h4>
-                <b>President's Professor</b><br>School of Computing and Augmented Intelligence
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/342678">Click to view ASU profile</a>
-              </div>
+        <div id="jessica_verpeut" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jverpeut?size=medium&break=1730062963&blankImage2=1"
+          alt="Jessica Verpeut" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Jessica Verpeut</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>Psychology
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3731310">Click to view ASU profile</a>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/bli24?size=medium&break=1730045401&blankImage2=1"
-            alt="Baoxin Li" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Baoxin Li</b></h1>
-              <h4>
-                <b>Associate Director and Professor</b><br>School of Computing and Augmented Intelligence
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/747601">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ywang354?size=medium&break=1730045401&blankImage2=1"
-            alt="Yalin Wang" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Yalin Wang</b></h1>
-              <h4>
-                <b>Professor</b><br>School of Computing and Augmented Intelligence
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/1638618">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/cbryan16?size=medium&break=1730037020&blankImage2=1"
-            alt="Chris Bryan" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Chris Bryan</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>School of Computing and Augmented Intelligence
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/3335256">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/rpan1?size=medium&break=1730034341&blankImage2=1"
-            alt="Rong Pan" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Rong Pan</b></h1>
-              <h4>
-                <b>Professor</b><br>School of Computing and Augmented Intelligence
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/969256">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/gdasarat?size=medium&break=1730033189&blankImage2=1"
-            alt="Gautam Dasarathy" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Gautam Dasarathy</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>School of Electrical, Computer and Energy Engineering
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/1176368">Click to view ASU profile</a>
-              </div>
+      <h1 style="padding-top: 20px"><b>Training Faculty - Health Sciences</b></h1>
+      <h3>CHS</h3>
+      <div class="picture-grid">
+        <div class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jkleinse?size=medium&break=1730066601&blankImage2=1"
+          alt="Judith Klein-Seetharaman" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h2><b>Judith Klein-Seetharaman</b></h2>
+            <h4>
+              <b>Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3955172">Click to view ASU profile</a>
             </div>
           </div>
         </div>
 
-        <h3>Sensing Technology SBHSE/SEMTE/ECEE</h3>
-        <div class="picture-grid">
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/visar?size=medium&break=1730059382&blankImage2=1"
-            alt="Visar Berisha" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Visar Berisha</b></h1>
-              <h4>
-                <b>Professor</b><br>College of Health Solutions
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/226165">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/eforzani?size=medium&break=1730063433&blankImage2=1"
-            alt="Erica Forzani" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Erica Forzani</b></h1>
-              <h4>
-                <b>Professor</b><br>School for Engineering of Matter, Transport and Energy
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/640298">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/telockha?size=medium&break=1730102256&blankImage2=1"
-            alt="Thurmon Lockhart" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Thurmon Lockhart</b></h1>
-              <h4>
-                <b>Professor</b><br>School of Biological and Health Systems Engineering
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/2413706">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/sbeeman?size=medium&break=1730054453&blankImage2=1"
-            alt="Scott Beeman" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Scott Beeman</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>School of Biological and Health Systems Engineering
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/423692">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jmuthus?size=medium&break=1730054496&blankImage2=1"
-            alt="Jitendran Muthuswamy" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Jitendran Muthuswamy</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>School of Biological and Health Systems Engineering
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/287460">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/syschaef?size=medium&break=1730054436&blankImage2=1"
-            alt="Sydney Schaefer" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Sydney Schaefer</b></h1>
-              <h4>
-                <b>Associate Professor</b><br>School of Biological and Health Systems Engineering
-              </h4>
-              <div>
-                <a href="https://search.asu.edu/profile/2999333">Click to view ASU profile</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="w3-row grow">
-            <img src="https://webapp4.asu.edu/photo-ws/directory_photo/nshisheg?size=medium&break=1730053173&blankImage2=1"
-            alt="Nina Sharp" class="w3-col w3-image">
-            <div class="w3-col w3-hide-small"></div>
-            <div class="w3-rest w3-mobile">
-              <h1><b>Nina Sharp</b></h1>
-              <h4>
-                <b>Assistant Professor</b><br>The Design School
-              </h4>
-              <div style="padding-top: 5px">
-                <a href="https://search.asu.edu/profile/3996513">Click to view ASU profile</a>
-              </div>
+        <div id="visar_berisha" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/visar?size=medium&break=1730059382&blankImage2=1"
+          alt="Visar Berisha" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Visar Berisha</b></h1>
+            <h4>
+              <b>Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/226165">Click to view ASU profile</a>
             </div>
           </div>
         </div>
+
+        <div id="b_blair_braden" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/bbbraden?size=medium&break=1730050412&blankImage2=1"
+          alt="B. Blair Braden" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>B. Blair Braden</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/1039878">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="li_liu" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/lliu80?size=medium&break=1730098690&blankImage2=1"
+          alt="Li Liu" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Li Liu</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/1646747">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="valentin_dinu" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/vdinu?size=medium&break=1730079467&blankImage2=1"
+          alt="Valentin Dinu" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Valentin Dinu</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/1112588">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="hassan_ghasemzadeh" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/hghasemz?size=medium&break=1729953144&blankImage2=1"
+          alt="Hassan Ghasemzadeh" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Hassan Ghasemzadeh</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/4018242">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="edward_ofori"class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/eofori3?size=medium&break=1730034134&blankImage2=1"
+          alt="Edward Ofori" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Edward Ofori</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3331143">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="shannon_ringenbach" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/shannonr?size=medium&break=1730112371&blankImage2=1"
+          alt="Shannon Ringenbach" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Shannon Ringenbach</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/192246">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="susan_racette" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/sracette?size=medium&break=1730084170&blankImage2=1"
+          alt="Susan Racette" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Susan Racette</b></h1>
+            <h4>
+              <b>Professor & Program Director</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/4149126">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Nursing</h3>
+      <div class="picture-grid">
+        <div id="david_coon" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/dwcoon?size=medium&break=1730059562&blankImage2=1"
+          alt="David Coon" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>David Coon</b></h1>
+            <h4>
+              <b>Assoc Dean & Professor - R.I.S.E.</b><br>Edson College of Nursing and Health Innovation
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/755886">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="fang_yu" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/fangyu2?size=medium&break=1730048978&blankImage2=1"
+          alt="Fang Yu" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Fang Yu</b></h1>
+            <h4>
+              <b>Edson Chair in Dementia Translational Nursing Science and Professor</b><br>Edson College - Research Faculty
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/3768542">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Biostatistics Core</h3>
+      <div class="picture-grid">
+        <div id="kewei_chen" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/chenkw?size=medium&break=1730089386&blankImage2=1"
+          alt="Kewei Chen" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Kewei Chen</b></h1>
+            <h4>
+              <b>Research Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/253922">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1 style="padding-top: 20px"><b>Training Faculty - Engineering</b></h1>
+
+      <h3>Data Science/AI/SCAI</h3>
+      <div class="picture-grid">
+        <div id="teresa_wu" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/twu02?size=medium&break=1730048970&blankImage2=1"
+          alt="Teresa Wu" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Teresa Wu</b></h1>
+            <h4>
+              <b>President's Professor</b><br>School of Computing and Augmented Intelligence
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/342678">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="baoxin_li" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/bli24?size=medium&break=1730045401&blankImage2=1"
+          alt="Baoxin Li" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Baoxin Li</b></h1>
+            <h4>
+              <b>Associate Director and Professor</b><br>School of Computing and Augmented Intelligence
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/747601">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="yalin_wang" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/ywang354?size=medium&break=1730045401&blankImage2=1"
+          alt="Yalin Wang" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Yalin Wang</b></h1>
+            <h4>
+              <b>Professor</b><br>School of Computing and Augmented Intelligence
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/1638618">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="chris_bryan" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/cbryan16?size=medium&break=1730037020&blankImage2=1"
+          alt="Chris Bryan" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Chris Bryan</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>School of Computing and Augmented Intelligence
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/3335256">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="rong_pan" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/rpan1?size=medium&break=1730034341&blankImage2=1"
+          alt="Rong Pan" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Rong Pan</b></h1>
+            <h4>
+              <b>Professor</b><br>School of Computing and Augmented Intelligence
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/969256">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="gautam_dasarathy" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/gdasarat?size=medium&break=1730033189&blankImage2=1"
+          alt="Gautam Dasarathy" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Gautam Dasarathy</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>School of Electrical, Computer and Energy Engineering
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/1176368">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Sensing Technology SBHSE/SEMTE/ECEE</h3>
+      <div class="picture-grid">
+        <div class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/visar?size=medium&break=1730059382&blankImage2=1"
+          alt="Visar Berisha" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Visar Berisha</b></h1>
+            <h4>
+              <b>Professor</b><br>College of Health Solutions
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/226165">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="erica_forzani" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/eforzani?size=medium&break=1730063433&blankImage2=1"
+          alt="Erica Forzani" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Erica Forzani</b></h1>
+            <h4>
+              <b>Professor</b><br>School for Engineering of Matter, Transport and Energy
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/640298">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="thurmon_lockhart" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/telockha?size=medium&break=1730102256&blankImage2=1"
+          alt="Thurmon Lockhart" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Thurmon Lockhart</b></h1>
+            <h4>
+              <b>Professor</b><br>School of Biological and Health Systems Engineering
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/2413706">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="scott_beeman" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/sbeeman?size=medium&break=1730054453&blankImage2=1"
+          alt="Scott Beeman" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Scott Beeman</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>School of Biological and Health Systems Engineering
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/423692">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="jitendran_muthuswamy" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/jmuthus?size=medium&break=1730054496&blankImage2=1"
+          alt="Jitendran Muthuswamy" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Jitendran Muthuswamy</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>School of Biological and Health Systems Engineering
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/287460">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="sydney_schaefer" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/syschaef?size=medium&break=1730054436&blankImage2=1"
+          alt="Sydney Schaefer" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Sydney Schaefer</b></h1>
+            <h4>
+              <b>Associate Professor</b><br>School of Biological and Health Systems Engineering
+            </h4>
+            <div>
+              <a href="https://search.asu.edu/profile/2999333">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="nina_sharp" class="w3-row grow">
+          <img src="https://webapp4.asu.edu/photo-ws/directory_photo/nshisheg?size=medium&break=1730053173&blankImage2=1"
+          alt="Nina Sharp" class="w3-col w3-image">
+          <div class="w3-col w3-hide-small"></div>
+          <div class="w3-rest w3-mobile">
+            <h1><b>Nina Sharp</b></h1>
+            <h4>
+              <b>Assistant Professor</b><br>The Design School
+            </h4>
+            <div style="padding-top: 5px">
+              <a href="https://search.asu.edu/profile/3996513">Click to view ASU profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Footer -->
@@ -679,5 +750,17 @@
   <script src="sidebar.js"></script>
 
 </body>
+
+<script>
+var toggler = document.getElementsByClassName("caret");
+var i;
+
+for (i = 0; i < toggler.length; i++) {
+  toggler[i].addEventListener("click", function() {
+    this.parentElement.querySelector(".nested").classList.toggle("active");
+    this.classList.toggle("caret-down");
+  });
+}
+</script>
 
 </html>
